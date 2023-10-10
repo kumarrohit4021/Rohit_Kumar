@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal_portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2f0ae6e90d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="nameogo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer.</p>
+                <h1>Hi, I'm <span>Rohit</span> , <br>from India</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-------About me-------->
+    <div id="about">
+        <div class="container">
+            <div class="sec1">
+                <div class="about-sub1">
+                    <img src="rk1.png">
+                </div>
+                <div class="about-sub2">
+                    <h1 class="sub2">About me</h1>
+                    <P>As a budding Software Developer, I am motivated to kickstart my career in the world of technology . With
+                        a solid foundation in programming language such as C, HTML, CSS, JS, JAVA .I have a keen interest in
+                        building efficient and user-friendly software solutions. I am a Faster Learner and thrive in collaborative
+                        team environments. I am excited to apply my coding skills and passion for problem- solving to contribute
+                        to innovative software projects and continuously grow as a developer. </P>
+                    <div class="sub-title">
+                        <p class="skill-link active" onclick="opentab('Skills')">Skills</p>
+                        <p class="skill-link" onclick="opentab('Certificate')">Certificate</p>
+                        <p class="skill-link" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="link-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>C language</span></li>
+                            <li><span>Java.Script</span> (basic)</li>
+                            <li><span>JAVA</span> (basic)</li>
+                        </ul>
+                    </div>
+                    <div class="link-contents" id="Certificate">
+                        <ul>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>C language</span></li>
+                            <li><span>Java.Script</span> (basic)</li>
+                            <li><span>JAVA</span> (basic)</li>
+                        </ul>
+                    </div>
+                    <div class="link-contents" id="Education">
+                        <ul>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>C language</span></li>
+                            <li><span>Java.Script</span> (basic)</li>
+                            <li><span>JAVA</span> (basic)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------Services----------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub2">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi id unde quod, praesentium officia
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uncharted"></i>
+                    <h2>Software develop</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi id unde quod, praesentium officia
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Frontend Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi id unde quod, praesentium officia
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-----------Portfolio----------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub2">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work3.jpg">
+                    <div class="layer">
+                        <h3>Social web page</h3>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="shopping.jpg">
+                    <div class="layer">
+                        <h3>shopping web page</h3>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="music.jpg">
+                    <div class="layer">
+                        <h3>music web page</h3>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!---------------contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kumarrohit4021@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9931526138</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/rohit-kumar-996695260/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/RohitKu10149768?t=53Au3-zLSIHEUJQ_SY_e-w&s=09" target="_blank"><i
+                                class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://instagram.com/ahir_rohit45?igshid=YTQwZjQ0NmI0OA==" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100024367056357" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100024367056357" target="_blank"> <a
+                                href="https://github.com/kumarrohit4021" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Rohit's Resume (2).pdf" download class="btn btn2"> Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your massege" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>copyright @Rohit <i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("skill-link");
+        var tabcontents = document.getElementsByClassName("link-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <form name="submit-to-google-sheet">
+        <input type="email" name="email" placeholder=" CONFIRM YOUR Your Email I'D" required>
+        <button type="submit">Send</button>
+    </form>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw-LrkVG9-3zYUJ1f55Fbr6IwfytGcHqhc-rPNdYIvhirfzB_r0EoszFN900RWF6nUbqA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "message sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+
+                    }, 200)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
